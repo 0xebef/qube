@@ -1,0 +1,13 @@
+/bin/release/*.bin
+/bin/release/*.elf
+/bin/release/*.hex
+/bin/release/*.lst
+/bin/release/*.map
+/bin/debug/*.bin
+/bin/debug/*.elf
+/bin/debug/*.hex
+/bin/debug/*.lst
+/bin/debug/*.map
+/build/build*
+/build/qtc*
+/*.qbs.user
