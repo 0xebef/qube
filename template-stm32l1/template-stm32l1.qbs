@@ -143,6 +143,10 @@ Project {
                 defines.push("USE_FULL_LL_DRIVER")
             }
 
+            if (project.libc_sys === "semihosting") {
+                defines.push("USING_SEMIHOSTING")
+            }
+
             return defines
         }
 
